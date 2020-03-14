@@ -147,7 +147,7 @@ int main(void)
          _delay_ms(2000);
       }
 
-      LCDWriteStringXY(0,1,"%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0");
+      LCDWriteStringXY(0,1,"%0");
       LCDWriteStringXY(x,1,"%1");
       LCDGotoXY(16,1);//Hide cursor.
 
